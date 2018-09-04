@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Algorithm/Utils.h
+vector
+-
+
+D:/Algorithm/main.cpp
+iostream
+-
+Utils.h
+D:/Algorithm/Utils.h
+sort.h
+D:/Algorithm/sort.h
+vector
+-
+algorithm
+-
+
+D:/Algorithm/sort.h
+vector
+-
+iostream
+-
+
